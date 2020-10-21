@@ -1,0 +1,9 @@
+body{
+    color: black;
+}
+header{
+    background-image: url("https://images.wallpaperscraft.com/image/pizza_mushrooms_pepper_oil_garlic_10281_1280x720.jpg");
+    background-size: cover;
+    height: 650px;
+    width: 100%;
+}
