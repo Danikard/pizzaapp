@@ -110,4 +110,52 @@
                     <img src="" width="200px" height="200px">
                     <p>Chicken pizza</p>
                 </div>
-            </div>            
+            </div>   
+<div class="delivery">
+ <h1 id="here">Please fill in your oder</h1>       
+<div class="row">
+    <form id="oders">
+    select the size<br> 
+     <select name="size" id="size">
+      <option value="small">Small</option>
+        <option value="medium">Medium</option>
+        <option value="large">Large</option>     
+               </select><br>
+               chose crust<br>
+                <select name="crust" id="crust">
+                <option value="thin">Thin Crust</option>
+                <option value="thick">Thick Crust</option>
+                <option value="deep">Deep Crust</option>
+                <option value="cheese"> Cheese Filled Crust</option>
+                <option value="Stuffed">Stuffed Crust</option>
+            </select><br> 
+            choose your desired topping<br>
+            <select name="toppings" id="toppings">
+                <option value="egg">Bacon & egg</option>
+                <option value="bacon">Bacon, onion, potato & spinach</option>
+                <option value="beef">Beef mince, red onion, mozzarella & BBQ sauce</option>
+                <option value="pineapple">Ham, pineapple & cheese</option>
+                <option value="ham">Ham, mushroom & rocket</option>
+                <option value="goat">Chicken, pesto, goat's cheese & sun-dried tomato</option>
+                <option value="chicken">Chicken, cheese, spinach, tomato, mushroom, shallots</option>
+                <option value="samali">Salami & mozzarella</option>
+            </select><br>
+            How many?(form 1-30)<br>
+                    <input type="number" name="quantity" min="1" max="30" id="quantity"><br>
+                    <button type="submit" class="submit" id="butt">send</button> 
+                </form>
+            </div>    
+        </div>
+        <h1 id="here">Here is your oder summary</h1>
+        <div class="summary">
+            <p>size:<span class="size"></span></p>
+            <p>crust Type:<span class="type"></span></p>
+            <p>your pizza toppings:<span class="your"></span></p>
+            <p>number of pizza:<span class="number"></span></p>
+            <p>here is the total cost:<span class="ttt"></span>Rwf</p>
+            <button type="submit" class="submit"id="sub">Make delivery</button>
+            <button type="submit" class="submit" id="pick">pick up</button>
+        </div>   
+    </div>        
+
+
