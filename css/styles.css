@@ -47,3 +47,82 @@ nav{
   color:white;
   margin-bottom: 0px;
   }
+  #logo{ 
+  margin-left: 600px;
+  margin-top: 200px;
+  display: inline-block;
+  vertical-align: top;display: inline-block;
+  vertical-align: top;display: inline-block;
+  vertical-align: top;
+}
+.navimg{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+#pizza1>img{
+    border-radius: 50%;
+    margin-left: 400px;
+}
+#pizza2>img{
+    border-radius: 50%;
+    margin-left: 400px;
+}
+#pizza3>img{
+    border-radius: 50%;
+    margin-left: 400px;
+}
+.img>h1,p{
+    text-align: center;
+    /* margin-left: 400px; */
+}
+.summary{
+    display:none;
+    /* margin-left: 400px; */
+}
+#here{
+    text-align: center;
+}
+.pizza{
+ background-image: url("https://img.freepik.com/free-photo/tasty-pepperoni-pizza-black-concrete-background_79782-102.jpg?size=626&ext=jpg");
+background-size: cover;
+width: 100%;
+align-items: center;
+
+}
+ .row{
+    padding-left: 150px;
+    padding-top: 25px;
+   
+} 
+.now{
+    padding-top: 25px;
+    padding-left: 582px;
+    padding-bottom: 25px;
+}
+#name,#name2,#toppings,#crust#quantity{
+    width:450px
+    
+}
+.col-md-6>h1{
+text-align: center;
+}
+.col-md-4>p{
+padding-right: 140px;
+color: #ccc;
+}
+.delivery{
+    color: #ccc;
+}
+.delivery{
+background-image: url("https://images.wallpaperscraft.com/image/pizza_lettering_words_168646_1280x720.jpg");
+background-size: cover;
+width: 100%;
+    
+/* }
+.delivery{
+    margin-left: 400px;
+}
+.pl{
+    margin-left: 0px; 
+} */
