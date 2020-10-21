@@ -12,9 +12,9 @@ header{
     text-transform: uppercase;
     font-size:20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-  
-    
-
+}
+.f1{
+    margin-left: 400px;
 }
 nav>ul>li>a:hover {
 
@@ -74,6 +74,7 @@ nav{
 }
 .img>h1,p{
     text-align: center;
+    color: black;
     /* margin-left: 400px; */
 }
 .summary{
@@ -118,11 +119,39 @@ color: #ccc;
 background-image: url("https://images.wallpaperscraft.com/image/pizza_lettering_words_168646_1280x720.jpg");
 background-size: cover;
 width: 100%;
-    
-/* }
-.delivery{
-    margin-left: 400px;
 }
-.pl{
-    margin-left: 0px; 
-} */
+ .row>form{
+    max-width:500px ;
+    margin:0 auto 50px;
+ }
+     
+
+footer{
+  padding:25px;
+  top:0;
+  background-image: url("");
+  background-size: cover;
+  width: 100%;
+  border: 5px;
+  text-align:center;
+  font-size:15px;
+ }
+ 
+ .input,.draft,.submit,.email{
+  width: 100%; 
+ padding: 12px;  
+ border: 1px solid #ccc; 
+ border-radius: 4px; 
+ box-sizing: border-box; 
+ margin-top: 6px; 
+ margin-bottom: 16px; 
+}
+.contact>h1{
+  text-align: center;
+  
+}
+#contact{
+    max-width:500px ;
+    margin:0 auto 50px;
+}
+    
