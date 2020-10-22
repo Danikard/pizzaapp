@@ -12,6 +12,7 @@ To do this project I used  html,css,bootstrap ,javascript and jquery
 ### Support
 from technical meantal and fellow students
 ### project link
+https://danikard.github.io/pizzaapp/
 
 ### contact
 email:kajothada@gmail.com
