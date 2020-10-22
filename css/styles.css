@@ -74,18 +74,19 @@ nav{
 }
 .img>h1,p{
     text-align: center;
-    color: black;
-    /* margin-left: 400px; */
+    color: white;
+    margin-top: 0px; 
 }
 .summary{
     display:none;
-    /* margin-left: 400px; */
+  color: #fbffff;
 }
 #here{
     text-align: center;
+    color: blanchedalmond;
 }
 .pizza{
- background-image: url("https://img.freepik.com/free-photo/tasty-pepperoni-pizza-black-concrete-background_79782-102.jpg?size=626&ext=jpg");
+ background-image: url("https://images.wallpaperscraft.com/image/sheet_yellow_autumn_grey_earth_background_7126_1280x720.jpg");
 background-size: cover;
 width: 100%;
 align-items: center;
@@ -154,4 +155,3 @@ footer{
     max-width:500px ;
     margin:0 auto 50px;
 }
-    
